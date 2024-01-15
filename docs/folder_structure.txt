@@ -1,0 +1,68 @@
+M:\dev_env\my_personal_ai
+├── admin
+│   ├── convert_llama_weights_to_hf.py
+│   ├── create_folder_structure.py
+│   ├── download-model.py
+│   └── hugging_face_download.py
+├── docs
+│   └── folder_structure.txt
+├── flagged
+├── models
+│   ├── codellama-7b.Q4_K_M.gguf
+│   ├── config.json
+│   └── llama-2-7b-chat.Q4_K_M.gguf
+├── requirements.old
+├── requirements.txt
+├── src
+│   ├── common
+│   │   ├── RoPE.py
+│   │   ├── block_requests.py
+│   │   ├── github.py
+│   │   ├── grammar
+│   │   │   ├── grammar_utils.py
+│   │   │   └── logits_process.py
+│   │   ├── logging_colors.py
+│   │   ├── relative_imports.py
+│   │   └── utils.py
+│   ├── main.py
+│   ├── model_handler
+│   │   ├── callbacks.py
+│   │   ├── chatbot_wrapper.py
+│   │   ├── ctransformers_model.py
+│   │   ├── deepspeed_parameters.py
+│   │   ├── default_model_tab_settings.py
+│   │   ├── event_handlers.py
+│   │   ├── llamacpp_hf.py
+│   │   ├── llamacpp_model.py
+│   │   ├── metadata_gguf.py
+│   │   ├── model_download.py
+│   │   ├── model_loaders
+│   │   │   ├── ctransformers_loader.py
+│   │   │   ├── huggingface_loader.py
+│   │   │   ├── llamaccp_loader.py
+│   │   │   ├── llamacpp_HF_loader.py
+│   │   │   └── transformers_loader.py
+│   │   ├── model_loaders.py
+│   │   ├── model_wrapper.py
+│   │   ├── models.py
+│   │   ├── models_settings.py
+│   │   ├── prompts.py
+│   │   └── text_generation.py
+│   └── user_interface
+│       ├── ai_assistant_ui.py
+│       ├── gradio_ui.py
+│       ├── model_menu_ui.py
+│       ├── parameters_ui.py
+│       └── ui_settings.py
+└── tests
+    ├── chain_pipeline.py
+    ├── chat.py
+    ├── chatbot.py
+    ├── html_generator.py
+    ├── model_loader.py
+    ├── prompt_template.py
+    ├── ui.py
+    ├── ui_chat.py
+    └── ui_default.py
+
+Script last modified: 2024-01-14 14:57:22
